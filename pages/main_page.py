@@ -75,5 +75,5 @@ class GmailPage(Page):
     def delete_mail(self):
         self.wait_for_clickable(GmailPagesObject.DELETE_MAIL)
         self.wait_for(GmailPagesObject.DELETE_MAIL).click()
-        time.sleep(2)
+        # time.sleep(2)
         self.refresh_page()

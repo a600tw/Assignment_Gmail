@@ -15,10 +15,6 @@ class LoginPage(Page):
         self.wait_for_clickable(LoginPagesObject.SIGN_IN_BTN)
         self.wait_for(LoginPagesObject.SIGN_IN_BTN).click()
 
-    def click_log_in(self):
-        self.wait_for_clickable(LoginPagesObject.LOG_IN_BTN)
-        self.wait_for(LoginPagesObject.LOG_IN_BTN).click()
-
     def enter_username(self, username):
         self.wait_for_clickable(LoginPagesObject.USERNAME_INPUT)
         self.enter_input(LoginPagesObject.USERNAME_INPUT, username)
