@@ -1,0 +1,5 @@
+pytest
+selenium
+undetected_chromedriver
+webdriver-manager
+setuptools
